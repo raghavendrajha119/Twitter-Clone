@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"/>
+    <link rel="stylesheet" href="./style.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Twitter Clone</title>
+</head>
+<body>
+    <!-- sidebar starts -->
+    <div class="sidebar">
+        <span class="fab fa-twitter" id="lit"></span>
+        <div class="sidebarOption active">
+            
+            <span class="material-icons">
+                home
+            </span>
+            <h2>Home</h2>
+
+        </div>
+        <div class="sidebarOption">
+            
+            <span class="material-icons" id="lit">
+                tag
+            </span>
+            <h2>Explore</h2>
+            
+        </div>
+        <div class="sidebarOption">
+            <span class="material-icons">
+                notifications_none
+            </span>
+            <h2>
+                Notifications
+            </h2>
+        </div>
+        <div class="sidebarOption">
+            <span class="material-icons">
+                mail_outline
+            </span>
+            <h2>
+                Messages
+            </h2>
+        </div>
+        <div class="sidebarOption" id="lit">
+            <span class="material-icons">
+                bookmark_border
+            </span>
+            <h2>
+                Bookmarks
+            </h2>
+        </div>
+        <div class="sidebarOption" id="lit">
+            <span class="material-icons">
+                list_alt
+            </span>
+            <h2>
+                Lists
+            </h2>
+        </div>
+        <div class="sidebarOption" >
+            <span class="material-icons">
+                account_circle
+            </span>
+            <h2>
+                Profile
+            </h2>
+        </div>
+        <div class="sidebarOption">
+            <span class="material-icons">
+                more_horiz
+            </span>
+            <h2>
+                More
+            </h2>
+        </div>
+
+        <button class="sidebar_tweet" id="lit">Tweet</button>
+
+    </div>
+    <!-- sidebar ends -->
+    <!-- feed starts -->
+    <div class="feed">
+        <div class="feed_header">
+            <h2>
+                Home
+            </h2>
+
+        </div>
+    <!-- tweetbox starts -->
+    <div class="tweetbox">
+        <form action="">
+            <div class="tweetbox_input">
+                <img src="https://cdn.iconscout.com/icon/free/png-512/avatar-370-456322.png?f=avif&w=256" alt="">
+                <input type="text" placeholder="What's happening?">
+            </div>
+            <div style="display: flex ; align-items: center;">
+                <div class="tweetbox_logo" >
+                    <span class="material-icons">
+                        photo_camera
+                    </span>
+                    <span class="material-icons">
+                        image
+                    </span>
+                    <span class="material-icons">
+                        gif_box
+                    </span>
+                    
+                    <span class="material-icons">
+                        sentiment_satisfied_alt
+                    </span>
+                </div>
+                <button class="tweetbox_tweetbutton" >Tweet</button>
+
+            </div>
+            
+        </form>
+        
+    </div>
+    <!-- tweetbox ends -->
+    <!-- poststarts -->
+    
+    <div class="post">
+        <div class="post_avatar">
+            <img src="https://cdn.iconscout.com/icon/free/png-512/avatar-370-456322.png?f=avif&w=256" alt="">
+        </div>
+        <div class="post_body">
+            <div class="post_header">
+                <div class="post_headerText">
+                    <h3>
+                        Raghavendra Jha
+                        <span class="post_headerSpecial">
+                            <span class="material-icons post_badge">
+                                verified
+                            </span>
+                            @raghavendrajha
+                        </span>
+                    </h3>
+                </div>
+                <div class="post_headerDescription">
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.Lorem ipsum dolor sit amet.
+                    </p>
+                </div>
+            </div>
+            <img src="https://images.pexels.com/photos/4737484/pexels-photo-4737484.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
+            <div class="post_footer">
+                <span class="material-icons">
+                    repeat
+                </span>
+                <span class="material-icons">
+                    favorite_border
+                </span>
+                <span class="material-icons">
+                    publish
+                </span>
+                <span class="material-icons">
+                    chat_bubble
+                </span>
+            </div>
+        </div>
+    </div>
+    <!-- postends -->
+    <!-- poststarts -->
+    <div class="post" id="space">
+        <div class="post_avatar">
+            <img src="https://cdn.iconscout.com/icon/free/png-512/avatar-370-456322.png?f=avif&w=256" alt="">
+        </div>
+        <div class="post_body">
+            <div class="post_header">
+                <div class="post_headerText">
+                    <h3>
+                        Raghavendra Jha
+                        <span class="post_headerSpecial">
+                            <span class="material-icons post_badge">
+                                verified
+                            </span>
+                            @raghavendrajha
+                        </span>
+                    </h3>
+                </div>
+                <div class="post_headerDescription">
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.Lorem ipsum dolor sit amet.
+                    </p>
+                </div>
+            </div>
+            <img src="https://w0.peakpx.com/wallpaper/572/46/HD-wallpaper-anime-sunset-scene-anime-artist-artwork-digital-art-deviantart.jpg" alt="">
+            <div class="post_footer">
+                <span class="material-icons">
+                    repeat
+                </span>
+                <span class="material-icons">
+                    favorite_border
+                </span>
+                <span class="material-icons">
+                    publish
+                </span>
+                <span class="material-icons">
+                    chat_bubble
+                </span>
+            </div>
+        </div>
+    </div>
+    <!-- postends -->
+    
+    </div>
+    <!-- feed ends -->
+    <!-- Widgets starts -->
+    <div class="widgets" style="flex:0.3">
+        <div class="widgets_input">
+            <span class="material-icons widgets_searchicon">
+                search
+            </span>
+            <input type="text" placeholder="Search Twitter">
+        </div>
+        <div class="widgets_widgetcontainer">
+            <h2>
+                What's Happening?
+            </h2>
+            <blockquote class="twitter-tweet"><p lang="en" dir="ltr">These two shots of Virat Kohli have a separate fanbase<a href="https://t.co/XhweT5G1Mh">pic.twitter.com/XhweT5G1Mh</a></p>&mdash; king_stan (@mekon_123) <a href="https://twitter.com/mekon_123/status/1629837767231565824?ref_src=twsrc%5Etfw">February 26, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        </div>
+        <div class="widgets_widgetcontainer">
+            <h2>
+                Trending
+            </h2>
+            <blockquote class="twitter-tweet"><p lang="en" dir="ltr">‘India’s <a href="https://twitter.com/hashtag/Covid?src=hash&amp;ref_src=twsrc%5Etfw">#Covid</a> vaccine drive saved over 34L+ lives’ <br><br>India was able to save more than 3.4 million lives by undertaking a nationwide Covid-19 vaccination campaign at an unprecedented scale, according to a Stanford University report.<a href="https://t.co/06FgTQJvTx">https://t.co/06FgTQJvTx</a></p>&mdash; The Times Of India (@timesofindia) <a href="https://twitter.com/timesofindia/status/1629313110761955329?ref_src=twsrc%5Etfw">February 25, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        </div>
+    </div>
+    <!-- widget Ends -->
+    
+    
+</body>
+</html>
